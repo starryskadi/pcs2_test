@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>First Website</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+
+  <body class="main-body">
+    <a href="./about/about.html"> About </a>
+    <img src="./images/profile-male.png" />
+    <h1 id="head" class="heading">Heading 1</h1>
+    <div class="container">
+      <h1 class="heading2">
+        Greeting from
+        <span class="text-deco">the world</span>
+      </h1>
+
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+      <h5>Heading 5</h5>
+      <h6>Heading 6</h6>
+      <p>You are <u>awesome!</u> asdasdasd asd asdasd</p>
+      <p>Hello!</p>
+    </div>
+
+    <hr />
+
+    <ol>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ol>
+
+    <!-- This table is for Users Data Collection -->
+    <table>
+      <caption>
+        Users
+      </caption>
+      <thead>
+        <tr>
+          <th>No.</th>
+          <th>First Name</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>John</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>1</td>
+          <td>John</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <h3>Register Form</h3>
+    <form
+      action="mailto:contact@starryskadi.com"
+      method="POST"
+      enctype="text/plain"
+    >
+      <label
+        >First Name
+        <input
+          type="text"
+          placeholder="Enter your first name"
+          name="firstname"
+        />
+      </label>
+
+      <label
+        >Last Name
+        <input type="text" placeholder="Enter your last name" name="lastname" />
+      </label>
+
+      <label
+        >Email
+        <input type="text" placeholder="Enter your email" name="email" />
+      </label>
+
+      <br />
+      <label
+        >Gender
+        <select name="Gender">
+          <option>Select your gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="others">Others</option>
+        </select>
+      </label>
+
+      <label>Remember Me </label>
+      <label>
+        Yes <input type="radio" name="remember" placeholder="Yes" value="yes" />
+      </label>
+
+      <label>
+        No <input type="radio" name="remember" placeholder="No" value="no"
+      /></label>
+
+      <label>
+        <input type="checkbox" placeholder="Yes" name="subscribe" value="yes" />
+        Subscribe to newsletter
+      </label>
+
+      <textarea placeholder="Enter Your Message" name="your_message"></textarea>
+
+      <button type="submit">Register</button>
+      <button type="button">Go Back to Login</button>
+    </form>
+  </body>
+</html>
